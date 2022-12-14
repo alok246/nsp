@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+ }
+/* #A{
+	  /*background-image: url(image/ART GALLERY PIC.jpg);*/
+    /* height: 100%;
+    margin : 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #ffcccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    } */ */
+
+/* h1{
+	font-size: 100px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 50px; 
+  } */
+
+/* .container-left{
+				 float: left;
+				 width: 20%;
+				 margin-left:7%; 
+				 margin-top: 2%;
+			   }
+.container-right{
+				  float: right;
+				  width: 65%;
+				  font-family: "Times New Roman", Times, serif;
+				  background-color: #FFFFE0;
+				  margin-top: 2%;
+				  margin-bottom: 2%;
+
+				}
+.container-left2{
+                   float: left;
+                   background-color: #FFFFE0;
+                   width: 65%;
+                   font-family: "Times New Roman", Times, serif;
+                   margin-top: 2%;
+                   margin-bottom: 2%;
+				}
+.container-right2{
+  					float: right;
+  					width: 20%;
+  					margin-right:7%;
+  					margin-top: 2%;
+				 }
+.container-left3{
+                   float: left;
+                   width: 60%;
+                   font-family: "Times New Roman", Times, serif;
+                   margin-top: 1%;
+                   margin-bottom: 2%;
+				}
+
+.container-right3{
+  					float: right;
+  					width: 30%;
+  					height: 100px;
+  					margin-right:9%;
+  					margin-top: 2%;
+				 }
+.art3{
+  		height: 225%;
+  		width: 500px;
+	 }
+
+
+ */
+
+
+
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+
+#op:hover{
+            opacity: 1;
+            background-color: #000000;
+         }
+
+
+#trig {
+  position: relative;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0; 
+  
+  margin-top: 1.5%;
+  margin-left: 0.5%;
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 350px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+#trig:hover .overlay {
+  opacity: 1;
+}
+
+.W{
+    font-style: bold,Times New Roman;
+    font-size: 20px;
+    color: white;
+  }
+.W:hover{
+            color: powderblue;
+            text-decoration: none;
+        }
+
+.F{
+    font-size: 15px;
+    color: orange;
+  }
+
+.Z{
+    font-size: 18px;
+    color: #EE25;
+    font-style: normal; 
+  }
+
+.D{
+    font-style: Arial;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+.OFP:hover{
+  background-color: grey;
+}
+
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 35px 75px;
+    width: 33%;
+    border-radius: 28px;
+
+  }
+  .form-group input{
+    text-align: center;
+    display: block;
+    width: 410px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 21px;
+    border-radius: 7px;
+  }
+  .container h1{
+    text-align: center;
+  }
+  .container button{
+    display: block;
+    width: 23%;
+    margin: 10px auto;
+  }

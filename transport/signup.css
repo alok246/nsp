@@ -1,0 +1,50 @@
+
+.sign{
+	   display: block;
+	   margin-left: auto;
+       margin-right: auto;
+	   margin-top: 10px;
+	   width: 150px;
+	   border-radius: 80px;
+	 }
+
+/*main content of the webpage*/
+
+.container{
+			width: 258px;
+			overflow: hidden;
+			padding: 10px 16px;
+			border-radius: 4px;
+			text-align: center;
+			margin: auto;
+			margin-top: 0px;
+		  }
+
+
+   
+.reg{
+		 width: 212px;
+	     padding: 8px 16px;
+	     margin: 8px 0;
+	     box-sizing: border-round;
+	     border:2px solid white;
+	     border-radius: 4px;
+	}
+
+.info{
+		color: tomato;
+	 }
+.bt{
+		 font-weight: bold;
+		 width: 245px;
+		 padding: 10px 15px;
+		 margin: 2px 0;
+		 box-sizing: border-round;
+         border:2px solid orange;
+		 border-radius: 4px;
+		 background-color: orange;
+	   }
+
+.btn:hover{
+			   background-color: grey;
+			 }
