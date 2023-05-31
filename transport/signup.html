@@ -48,15 +48,15 @@
 	  <img src="signup logo.jpg" class="sign" alt="sign up"><br>
 	
 	
-		<form>	
+		<form action="signup.php" method="POST" >	
       
-			<input type="text" class="reg" placeholder="First Name" required><br>
-			<input type="text" class="reg" placeholder="Last Name" required><br>
-			<input type="email" class="reg" placeholder="Email" required><br>
-			<input type="password" class="reg" placeholder="Password" required><br>
-			<input type="password" class="reg" placeholder="Confirm Password" required><br>
+			<input type="text" class="reg" placeholder="First Name"  name="fname" required><br>
+			<input type="text" class="reg" placeholder="Last Name"  name="lname" required><br>
+			<input type="email" class="reg" placeholder="Email" name="email"  required><br>
+			<input type="password" class="reg" placeholder="Password" name="password" required ><br>
+			<input type="password" class="reg" placeholder="Confirm Password"  name="cpassword" required><br>
 		  <p style="color: white"><input type="checkbox" required> I agree with <a href="#" class="info">Terms and Services</a><br> & <a href="#" class="info">Privacy Policy</a></p>
-			<button class="bt">Create Account</button>
+			<button class="bt" type="submit" name="signup">Create Account</button>
 		</form>
 	</div> 
 		
